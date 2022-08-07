@@ -1,0 +1,389 @@
+/* 1340px laptop */
+
+@media (max-width: 1340px) {
+    .globalContainer {
+        min-width: 1240px;
+    }
+
+    .navbar .localContainer {
+        width: 1240px;
+    }
+
+    .register .localContainer {
+        width: 1340px;
+    }
+
+    .localContainer .text {
+        width: 600px;
+    }
+
+    .localContainer .text h1 {
+        width: 330px;
+        font-size: 35px;
+    }
+
+    .localContainer .text p {
+        font-size: 17px;
+    }
+
+    .localContainer form .form {
+        width: 340px;
+        height: 510px;
+    }
+
+    .form h1 {
+        font-size: 22px;
+    }
+
+    form .form .grupo input {
+        width: 190px;
+    }
+
+    form .form button {
+        padding: 8px 0;
+        width: 180px;
+    }
+
+    footer {
+        width: 1340px;
+    }
+
+    span.line {
+        width: 1340px;
+    }
+}
+
+/* 1040px */
+
+@media (max-width: 1040px) {
+    .globalContainer {
+        min-width: 1040px;
+    }
+
+    .navbar .localContainer {
+        width: 970px;
+    }
+
+    .logo p {
+        font-size: 18px;
+    }
+
+    .signIn {
+        width: 665px;
+    }
+
+    .signIn p {
+        font-size: 14px;
+    }
+
+    .signIn input::placeholder {
+        color: #333;
+    }
+
+    .signIn .grupo label {
+        display: none;
+    }
+
+    .signIn .btn button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .register .localContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 1020px;
+        height: 1028px;
+    }
+
+    .localContainer .text {
+        width: 530px;
+        text-align: center;
+    }
+
+    .localContainer .text h1 {
+        font-size: 30px;
+        width: 530px;
+        text-align: center;
+    }
+
+    .localContainer .text p {
+        font-size: 15px;
+    }
+
+    footer {
+    bottom: -200px;
+    width: 1040px;
+    }
+
+    span.line {
+    height: 12px;
+    bottom: -210px;
+    width: 1040px;
+    overflow: hidden;
+    }
+
+}
+
+/* 760px */
+
+@media (max-width: 760px) {
+    .globalContainer {
+        min-width: 760px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbarMobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 760px;
+    }
+
+    .logoMobile {
+        margin-left: 15px;
+    }
+
+    .logoMobile p i {
+        margin: 0 10px;
+    }
+
+    .signInMobile {
+        display: block;
+    }
+
+    .signInMobile p {
+        margin-right: 50px;
+    }
+
+    .signInMobile p i{
+        margin-right:10px;
+    }
+
+    .register .localContainer {
+        width: 760px;
+    }
+
+    .localContainer .text h1 {
+        width: 420px;
+    }
+
+    .localContainer .text {
+        width: 440px;
+    }
+
+    footer {
+        bottom: -200px;
+        width: 760px;
+    }
+
+    span.line {
+        height: 12px;
+        bottom: -210px;
+        width: 760px;
+        overflow: hidden;
+    }
+}
+
+/* 725 */
+
+@media (max-width: 725px) {
+    .globalContainer {
+        min-width: 725px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbarMobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 725px;
+    }
+
+    .logoMobile {
+        margin-left: 15px;
+    }
+
+    .logoMobile p i {
+        margin: 0 10px;
+    }
+
+    .signInMobile {
+        display: block;
+    }
+
+    .signInMobile p {
+        margin-right: 50px;
+    }
+
+    .signInMobile p i{
+        margin-right:10px;
+    }
+
+    .localContainer .text h1 {
+        width: 420px;
+    }
+
+    .localContainer .text {
+        width: 440px;
+    }
+
+    footer {
+        bottom: -200px;
+        width: 725px;
+    }
+
+    span.line {
+        height: 12px;
+        bottom: -210px;
+        width: 725px;
+        overflow: hidden;
+    }
+}
+
+/* 482 */
+
+@media (max-width: 482px) {
+    .globalContainer {
+        min-width: 482px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbarMobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 482px;
+    }
+
+    .logoMobile {
+        margin-left: 15px;
+    }
+
+    .logoMobile p i {
+        margin: 0 10px;
+    }
+
+    .signInMobile {
+        display: block;
+    }
+
+    .signInMobile p {
+        margin-right: 50px;
+    }
+
+    .signInMobile p i{
+        margin-right:10px;
+    }
+
+    .register .localContainer {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .localContainer .text h1 {
+        width: 382px;
+    }
+
+    .localContainer .text p {
+        padding-left: 0;
+    }
+
+    .localContainer .text {
+        width: 400px;
+    }
+
+    footer {
+        bottom: -200px;
+        width: 482px;
+    }
+
+    span.line {
+        height: 12px;
+        bottom: -210px;
+        width: 482px;
+        overflow: hidden;
+    }
+}
+
+/* 410 */
+
+@media (max-width: 410px) {
+    .globalContainer {
+        min-width: 410px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbarMobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 410px;
+    }
+
+    .logoMobile {
+        margin-left: 15px;
+    }
+
+    .logoMobile p i {
+        margin: 0 10px;
+    }
+
+    .signInMobile {
+        display: block;
+    }
+
+    .signInMobile p {
+        margin-right: 50px;
+    }
+
+    .signInMobile p i{
+        margin-right:10px;
+    }
+
+    .register .localContainer {
+        width: 390px;
+        margin: 0 auto;
+    }
+
+    .localContainer .text h1 {
+        width: 300px;
+    }
+
+    .localContainer .text p {
+        padding-left: 0;
+    }
+
+    .localContainer .text {
+        width: 325px;
+    }
+
+    .localContainer form .form {
+        width: 300px;
+    }
+
+    footer {
+        bottom: -200px;
+        width: 410px;
+    }
+
+    span.line {
+        height: 12px;
+        bottom: -210px;
+        width: 410px;
+        overflow: hidden;
+    }
+}
